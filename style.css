@@ -19,11 +19,14 @@ h1 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    display: block;
+    margin: 10px auto;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0;
 }
 
 nav ul li {
@@ -49,7 +52,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative;
-    bottom: 0;
+    position: relative; /* Changed from fixed to relative for better flow */
     width: 100%;
 }
